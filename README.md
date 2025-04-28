@@ -3,22 +3,7 @@ help to perform some scientific and basic calculation
 #include<iostream>
 #include<cmath>
 using namespace std;
-// create 2 calculator
-//1. simple calculator -- takes input of 2 numbers using a utility function and perform +,-,*,/ displays the result using another function
 
-//2. scientific calculator--takes input of 2 numbers using a utility function and perform any 4 scientific operation of ypur choics  displays the result using another functio
-
-
-
-// create another class hybrid calculator and inherit it using these 2 classes;
-//Q1 what type of inheritence are you using?
-// ans multiple inheritence 
-//Q2 which mode of inheritence are you using?
-// ans public 
-//Q3 create an object of hybridcalculator and display results of simple and scientific calculator.
-//below 
-//Q4 how is code reusbility implemented?
-// ans reusability implemented because whole member function and function are inherited into hybrid function using simple and scientific calculator
 class simplecalculator{
     int a , b;
     public:
